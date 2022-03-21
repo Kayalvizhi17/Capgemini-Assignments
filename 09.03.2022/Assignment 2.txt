@@ -1,0 +1,18 @@
+Problem Statement
+	You have to write the way to access the inspection tool in the different browsers.
+
+Solution:
+
+FireFox 
+i) Right-click any part of the page and choose Inspect Element. Right-clicking a specific page element will open that element in the inspector view.
+ii) Select Tools > Web Developer > Inspector from the top menu bar.
+iii) Use the shortcut control-shift-C in Windows or command-option-C in macOS.
+
+Chrome
+i) Open Customize and control Google Chrome by clicking the three-dot icon in the top right corner of the browser window.
+ii) Right-click any part of the page and choose Inspect. Right-clicking a specific page element will open that element in the inspector view. 
+
+Safari 
+i) Right-click any part of the page and choose Inspect Element. Right-clicking a specific page element will open that element in the inspector view.
+ii) Choose Develop > Show Web Inspector from the top menu bar.
+iii) Use the shortcut command-option-I.

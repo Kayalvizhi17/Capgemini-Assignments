@@ -1,0 +1,5 @@
+Problem statement
+________are used to divide the web browser window into multiple sections where each section can be loaded separately 
+
+Answer:
+HTML Frames

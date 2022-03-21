@@ -1,0 +1,14 @@
+<!DOCTYPE html>   
+<html>
+<head>
+<title>Numbering</title>
+<body>
+<label>How to count to 100 quickly:</label>
+<ol>
+      <li> One</li>
+      <li> Two</li>
+      <li> Miss a few</li>
+      <li value="99">Ninety Nine</li>
+       <li> One Hundred</li>
+</body>
+</html>

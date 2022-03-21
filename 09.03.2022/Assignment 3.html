@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <style>
+	table {
+  	    overflow: hidden;
+	}
+	thead th{
+	    top:0;
+	    position:sticky;
+	    background-color: #FFFF00;
+	}
+	tr:hover {
+  	    background-color: #ffcc00;
+	}
+	td, th {
+	   position: relative;
+	}
+	td:hover::after,
+	{
+  	  content: "";
+  	  position: absolute;
+ 	  background-color: #ffcc00;
+  	  left: 0;
+    	  top: -5000px;
+  	  height: 10000px;
+  	  width: 100%;
+  	  z-index: -1;
+	}
+        	th,td, tr{
+            	   border: 0px solid white;
+         	}
+      </style>
+   </head>
+<body>
+<table>
+<thead>
+  <tr bgcolor="yellow">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone number</th>
+    <th></th>
+  </tr>
+</thead>
+  <tr bgcolor=#D3D3D3>
+    <td>001</td>
+    <td>Mark Smith</td>
+    <td>m.smith@gmail.com</td>
+    <td>0034 238 212 123</td>
+    <td>0034 78 261 231</td>
+  </tr>
+  <tr bgcolor=#D3D3D3>
+    <td>002</td>
+    <td>Martha Collins</td>
+    <td>martha.collins@yahoo.com</td>
+    <td>0034 726 121 984</td>
+    <td></td>
+  </tr>
+  <tr bgcolor=#D3D3D3>
+    <td>003</td>
+    <td>Sam McNeal</td>
+    <td>smn@gmail.com</td>
+    <td>0022 081 273 552</td>
+    <td></td>
+  </tr>
+  <tr bgcolor=#D3D3D3>
+    <td>004</td>
+    <td>Sarah Powels</td>
+    <td>spowels@yahoo.com</td>
+    <td>0044 019 937 113</td>
+    <td></td>
+  </tr>
+  <tr bgcolor=#D3D3D3>
+    <td>005</td>
+    <td>Peter Kovalsky</td>
+    <td>peter.kovalsky@outlook.com</td>
+    <td>0022 836 657 342</td>
+    <td></td>
+  </tr>
+  <tr bgcolor=#D3D3D3>
+    <td>006</td>
+    <td>John Doe</td>
+    <td>john.doe@yahoo.com</td>
+    <td>0021 384 482 173</td>  
+    <td></td>
+</table>
+</html>

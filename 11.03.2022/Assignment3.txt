@@ -1,0 +1,4 @@
+function calcAge(age) { 
+       var days=age*365;
+        document.write(days);
+} 

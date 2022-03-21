@@ -1,0 +1,16 @@
+<!DOCTYPE html>   
+<html>
+<head>
+<title> Nested Lists </title>
+<body>
+<ol start="7">
+      <li>Links</li>
+      <li>Images</li>
+      <li>Lists</li>
+               <ol type="i">
+                    <li>Introduction</li>
+                    <li>Displaying a List</li>
+                    <li>And others...</li>
+               </ol>
+</body>
+</html>

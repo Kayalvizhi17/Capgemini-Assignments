@@ -1,0 +1,51 @@
+<!DOCTYPE html>   
+<html>
+<head>
+<title> Create a Registration Form </title>
+<body>
+<form>
+<label>Firstname:  </label>
+<input type="text"><br><br>
+<label>Lastname:  </label>
+<input type="text"><br><br>
+<label>Course: </label>
+<select>
+<option>Course</option>
+<option>html</option>
+<option>css</option>
+<option>js</option>
+</select>
+<br><br>
+<label>Gender :</label><br> 
+<input type="radio">
+<label>Male</label><br>
+<input type="radio">
+<label>Female</label><br>
+<input type="radio">
+<label>Other</label>
+<br><br>
+<label>Hobbies:</label><br>
+<input type="checkbox">
+<label>Programming</label><br>
+<input type="checkbox">
+<label>Cricket</label><br>
+<input type="checkbox">
+<label>Football</label><br>
+<input type="checkbox">
+<label>Reading Novel</label>
+<br><br>
+<label>Phone:</label>
+<input type="text"><br><br>
+<label>Address</label><br>
+<textarea rows="5" cols="70">    
+</textarea>
+<br><br>
+<label>Email: </label>
+<input type="text"><br><br>
+<label>Password: </label>
+<input type="text"><br><br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>

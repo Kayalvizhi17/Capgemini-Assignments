@@ -1,0 +1,7 @@
+1. Write q query to find all the employees whose salary is between 50000 to 100000. 
+
+select * from EmployeePosition where salary between '50000' and '100000';
+
+2. Write a query to find the names of employees that begin with ‘S’ 
+
+select * from EmployeeInfo where EmpFname LIKE 'S%';
